@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+</head>
+<body>
+    <nav class="bg-red-500 p-4 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                
+                <span class="font-bold text-xl">Switch 2</span>
+            </a>
+            <div>
+                <a href="index.html" class="text-white hover:text-gray-200 mr-4">Home</a>
+                <a href="outros-componentes.html" class="text-white hover:text-gray-200 mr-4">Outros Componentes</a>
+                <a href="tailwind.html" class="text-white hover:text-gray-200">Tailwind</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto py-8">
+        <h1 class="text-2xl font-bold mb-4 text-red-500 text-center">Criado com Tailwind CSS</h1>
+        <p class="mb-4 text-gray-700 text-center">Aqui, criei um card e um botão visualmente semelhantes aos do Bootstrap usando Tailwind CSS.</p>
+
+        <div class="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
+            <img class="w-full" src="../imagens/switch.jpg" alt="Imagem do Switch 2">
+            <div class="px-6 py-4">
+                <p class="text-gray-700 text-base">Uma imagem de exemplo do Switch 2.</p>
+            </div>
+            <div class="px-6 pb-2 text-center">
+                <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.54.848l3-2a1 1 0 000-1.696l-3-2z" clip-rule="evenodd" />
+                    </svg>
+                    Detalhes
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-red-500 py-3 mt-8 text-center text-white">
+        <p>Trabalho bootstrap Ronan.</p>
+    </footer>
+</body>
+</html>
